@@ -23,10 +23,10 @@ class Wizard extends Component implements IWizard
 {
 
 	/** @var Session */
-	private $session;
+	protected $session;
 
 	/** @var WizardSessionSection|null */
-	private $section;
+	protected $section;
 
 	/** @var StepCounter|null */
 	private $stepCounter;
